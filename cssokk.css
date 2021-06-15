@@ -1,0 +1,248 @@
+#indexD {
+  background-color: #140e1d;
+  width: 501px;
+  position: absolute;
+  left: 506px;
+  top: 100px;
+}
+#heading {
+  text-align: center;
+  font-size: -webkit-xxx-large;
+  font-family: cursive;
+  color: aqua;
+}
+.index {
+  border: none;
+  width: 49.6%;
+  padding: 14px;
+  font-size: 20px;
+  border-bottom: 4px solid #16beff;
+  font-family: system-ui;
+  background-color: #121929;
+  color: #1bcc9b;
+  outline: none;
+  cursor: pointer;
+}
+label {
+  font-size: 21px;
+  margin-left: 64px;
+  margin-top: 10px;
+  color: #00d0ff;
+  font-family: system-ui;
+}
+input,
+select {
+  font-size: 20px;
+  margin-left: 69px;
+  margin-top: 13px;
+  width: 69%;
+  height: 37px;
+  border-radius: 0;
+  background-color: #140e1d;
+  border: none;
+  border-bottom: 2px solid skyblue;
+  color: white;
+  font-family: monospace;
+}
+input,
+select :focus {
+  outline: none;
+}
+
+#submit {
+  border: none;
+  background-color: #1aa575;
+  color: #090c69;
+  font-family: revert;
+}
+#header {
+  width: 100%;
+  height: 100px;
+}
+#littlehelp {
+  color: #0daff1;
+  font-size: 51px;
+  margin-left: 20px;
+  font-family: cursive;
+}
+.nav {
+  color: #00ffd0;
+  width: 19.76%;
+  height: 43px;
+  background-color: #000000;
+  font-size: 28px;
+  font-family: monospace;
+  border: none;
+  background-image: linear-gradient(-68deg, #1a3461, #cc08fd);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+#sel-paper {
+  position: relative;
+  left: 1119px;
+  width: 20%;
+  height: 45px;
+  border: 3px solid aqua;
+  border-radius: 10px;
+  top: 28px;
+  z-index: 1;
+}
+#papercontent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+#gridpaper {
+  height: 220px;
+  width: 300px;
+  overflow: hidden;
+}
+#download {
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  height: 29px;
+  font-size: 24px;
+  color: #16ff9e;
+  font-family: emoji;
+  border: 2px soild skyblue;
+  border: 3px solid #009aff;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, blue, #21f157);
+}
+#pdfname {
+  color: white;
+  font-size: 20px;
+  background-color: #fd0000;
+  margin: 0px;
+  width: 100%;
+  font-family: system-ui;
+  text-align: center;
+  overflow: hidden;
+  height: 26px;
+}
+a {
+  cursor: pointer;
+}
+.upload {
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  text-decoration: none;
+  width: 189px;
+  font-size: 23px;
+  height: 36px;
+  font-family: system-ui;
+  color: red;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 11px;
+}
+#addcontent {
+  width: 616px;
+  border: 3px solid #0a75fb;
+  position: relative;
+  left: 450px;
+  border-radius: 7px;
+  top: 50px;
+}
+#addhead {
+  text-align: center;
+  font-size: 42px;
+  background-color: aqua;
+  margin-top: 0px;
+  color: rebeccapurple;
+  position: relative;
+}
+.examhead {
+  color: #07fc98;
+  font-size: 40px;
+  font-family: cursive;
+  background-image: linear-gradient(180deg, #ce123c, #ff0082);
+  padding-left: 30px;
+}
+.select {
+  font-family: -webkit-pictograph;
+}
+#error {
+  color: red;
+  font-size: 28px;
+  text-align: center;
+}
+#outdiv {
+  border: 2px solid #00f3ff;
+  width: 70%;
+  position: relative;
+  left: 211px;
+  top: 50px;
+  border-radius: 20px;
+  height: 300px;
+
+  background-image: linear-gradient(0deg, black, #ff003f, black);
+}
+#inndiv {
+  color: white;
+  position: absolute;
+  left: 541px;
+  top: -10px;
+}
+.contact {
+  font-size: 22px;
+  margin: 0px;
+  color: #03a9f4;
+  font-family: system-ui;
+}
+img {
+  position: absolute;
+  height: 161px;
+  border-radius: 50%;
+  left: 100px;
+  top: 21px;
+}
+#divh {
+  font-size: 44px;
+  color: #00ff96;
+}
+li {
+  font-size: 20px;
+  font-family: monospace;
+}
+#experthead {
+  position: absolute;
+  width: 38%;
+  top: 164px;
+  color: #00ffa0;
+  font-family: system-ui;
+  text-align: center;
+  font-size: 27px;
+}
+#add {
+  position: absolute;
+  right: 29px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #00ffcf;
+  top: 31px;
+  border: 3px solid #ff03a0;
+  border-radius: 14px;
+  width: 187px;
+  text-align: center;
+  font-family: -webkit-pictograph;
+}
+.check {
+  height: 20px;
+  width: 20px;
+  color: white;
+  float: left;
+}
+.checklabel {
+  position: relative;
+  top: 8px;
+}
